@@ -4,7 +4,7 @@ class Ministat < Formula
   version '0.1'
   homepage 'https://github.com/codahale/ministat'
   url 'https://github.com/codahale/ministat/tarball/master'
-  sha1 'd2a2e4850c58ee942290475befef9d8a89c8c531'
+  sha256 'ad73993469df4a61c904cf22c7772bcfeb68bf0723aab2e162eaed48e1fbec61'
 
   def install
     system "./configure", "--disable-debug", "--disable-dependency-tracking",
